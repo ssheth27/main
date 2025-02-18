@@ -319,7 +319,7 @@ body {
 .text-content h1 {
   font-size: 5rem;
   margin-bottom: 0rem;
-  background-image: linear-gradient(to right, #ff0844, #ffb199); /* Gradient highlight */
+  background-image: linear-gradient(to right, #ff0844, #ffb199); 
   background-clip: text;
   align-items: center;
   display: flex;
@@ -332,7 +332,7 @@ body {
 .text-content h2 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  background-image: linear-gradient(to right, #ab00fb, #00d0ff); /* Gradient for secondary heading */
+  background-image: linear-gradient(to right, #ab00fb, #00d0ff); 
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
