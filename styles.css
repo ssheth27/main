@@ -14,13 +14,11 @@ details {
   margin-top: 1rem;
 }
 
-
 details[open] {
   background: #ffffff;
   padding: 10px;
   border-left: 3px solid #fd2d2d;
 }
-
 
 details ul {
   margin-top: 10px;
@@ -41,14 +39,14 @@ summary {
 }
 
 body {
-  background-color: #a54343; /* Soft background */
-  color: #1a1a1a; /* Main text color */
+  background-color: #a54343; 
+  color: #1a1a1a; 
   line-height: 1.6;
 }
 
 
 .navbar {
-  background: #fd2d2d; /* Mattel red */
+  background: #fd2d2d; 
   height: 80px;
   display: flex;
   justify-content: center;
@@ -110,28 +108,9 @@ body {
     width: 100%;
   }
   
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    padding: 10px 20px;
-    height: 100%;
-    width: 100%;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #a17874;
-    color: #fff;
-  }
-  
-  .button:hover {
-    background: #4837ff;
-    transition: all 0.9s ease;
-  }
-  
+
   .navbar__links:hover {
-    color: #ffd700; /* Gold hover effect */
+    color: #ffd700; 
   }
   
   .hero {
@@ -161,8 +140,6 @@ body {
     margin-bottom: 2rem;
   }
   
-
-
 
 
   .tech-hero {
@@ -316,27 +293,27 @@ body {
   
 
 
-/* Main Content CSS */
+
 .main {
-  background-color: #ffffff; /* Clean white background */
+  background-color: #ffffff; 
   padding: 4rem 2rem;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .main__container {
-  display: flex; /* Use flexbox to align text and image horizontally */
-  flex-direction: row; /* Ensure content is placed in a row */
-  justify-content: space-between; /* Add space between the text and the image */
-  align-items: center; /* Vertically align items */
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-between;
+  align-items: center; 
   width: 100%;
   max-width: 1300px;
   margin: 0 auto;
-  gap: 2rem; /* Add spacing between the text and image */
+  gap: 2rem; 
 }
 
 .text-content {
-  flex: 1; /* Allow the text to take up available space */
-  text-align: left; /* Align text to the left */
+  flex: 1; 
+  text-align: left; 
 }
 
 .text-content h1 {
@@ -375,21 +352,21 @@ body {
   margin-top: 1.5rem;
   cursor: pointer;
   transition: transform 0.3s, background 0.3s;
-  display: inline-block; /* Ensure proper positioning */
+  display: inline-block; 
   text-align: center;
 }
 
 .main__btn:hover {
-  background: linear-gradient(135deg, #ffb199, #ff0844); /* Reverse gradient on hover */
-  transform: translateY(-3px); /* Lift effect */
+  background: linear-gradient(135deg, #ffb199, #ff0844); 
+  transform: translateY(-3px);
 }
 
 .main-image {
-  width: 100%;  /* Ensure the image is responsive */
-  max-width: 400px;  /* Prevent it from becoming too large */
-  height: auto;  /* Maintain aspect ratio */
+  width: 100%; 
+  max-width: 400px;  
+  height: auto;  
   display: block;
-  margin: 0 auto;  /* Center the image */
+  margin: 0 auto;  
   border-radius: 10px;
 }
 
@@ -414,7 +391,7 @@ body {
   .about__container h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #fd2d2d; /* Mattel Red */
+    color: #fd2d2d; 
   }
   .about__container h3 {
     font-size: 1.5rem;
@@ -491,7 +468,7 @@ details[open] {
 }
 
 .scroll-btn:hover {
-  background: #ffb199; /* Gradient highlight */
+  background: #ffb199;
 }
 
 /* Why I'm a Good Fit Section */
@@ -519,7 +496,7 @@ details[open] {
 #why-me h2 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #fd2d2d; /* Mattel Red */
+  color: #fd2d2d; 
 }
 
 #why-me h3 {
@@ -546,10 +523,9 @@ details[open] {
 }
 
 
-
   @media screen and (max-width: 768px) {
     .main__container {
-      flex-direction: column; /* Stack items vertically */
+      flex-direction: column; 
       text-align: center;
     }
 
@@ -557,14 +533,14 @@ details[open] {
       width: 100%;
     }
     .main-image {
-      max-width: 80%; /* Resize image for mobile */
+      max-width: 80%; 
       height: auto;
       margin-top: 20px;
     }
 
     .main__btn {
       position: relative;
-      margin-top: 20px; /* Add spacing between image and button */
+      margin-top: 20px; 
       padding: 12px 24px;
     }
   
