@@ -358,7 +358,7 @@ body {
 
 .main__btn:hover {
   background: linear-gradient(135deg, #ffb199, #ff0844); 
-  transform: translateY(-3px);
+  transform: translateY(-5px);
 }
 
 .main-image {
@@ -367,7 +367,7 @@ body {
   height: auto;  
   display: block;
   margin: 0 auto;  
-  border-radius: 10px;
+  border-radius: 15px;
 }
 
 
@@ -379,7 +379,7 @@ body {
     text-align: center;
     opacity: 0;
     transform: translateY(10px);
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
@@ -454,22 +454,6 @@ details[open] {
   font-size: 1.1rem;
 }
 
-/* Button Styles */
-.scroll-btn {
-  margin-top: 1rem;
-  padding: 10px 20px;
-  font-size: 1rem;
-  color: white;
-  background: #fd2d2d; 
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background 0.3s ease-in-out;
-}
-
-.scroll-btn:hover {
-  background: #ffb199;
-}
 
 /* Why I'm a Good Fit Section */
 .why-me-list {
@@ -515,7 +499,6 @@ details[open] {
   margin-right: auto;
 }
 
-/* Responsive Design */
 @media screen and (max-width: 768px) {
   #why-me p {
     text-align: center;
